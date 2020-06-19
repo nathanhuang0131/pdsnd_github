@@ -1,8 +1,11 @@
 import pandas as pd
 import time
 import numpy as np
-
+"""
+Importing datetime and timedelta
+"""
 from datetime import datetime, timedelta
+
 CITY_DATA= { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
