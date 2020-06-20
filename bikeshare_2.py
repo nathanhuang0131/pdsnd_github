@@ -1,10 +1,22 @@
 import pandas as pd
 import time
 import numpy as np
+"""
+Importing datetime and timedelta
+"""
+from datetime import datetime, timedelta
 
+<<<<<<< HEAD
 from datetime import datetime, timedelta
 CITY_DATA= { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
+||||||| 4787f2f
+CITY_DATA = { 'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+=======
+CITY_DATA= { 'chicago': 'chicago.csv',
+              'new york': 'new_york_city.csv',
+>>>>>>> documentation
               'washington': 'washington.csv' }
 def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
