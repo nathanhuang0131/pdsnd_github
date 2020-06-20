@@ -180,7 +180,7 @@ def user_stats(df,city):
     if city.lower()!='washington':
         year_birth = df['Birth Year'].value_counts()
         earliest_year_birth = df['Birth Year'].min()
-        print('\n The earliest year of birth is ' + str(int(earliest_year_birth)))
+        print('\n The earliest year of birth is {}'.format(str(int(earliest_year_birth))))
         print('The most rescent year of birth is {}'.format(int(df['Birth Year'].max())))
         print('the most common year of birth is {} '.format(str(int(year_birth.index[0]))))
         print("\nThis took %s seconds." % (time.time() - start_time))
